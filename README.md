@@ -58,6 +58,12 @@
 - **Backend**: Python
 - **Environment**: Jupyter Notebook, Streamlit, VirtualEnv
 
+📞 Contact
+For queries, collaborations, or suggestions:
+
+📧 Email: anshuljain071103@gmail.com
+🧑‍💻 GitHub: https://github.com/anshuljain0703
+
 ---
 
 ## 💡 How to Run the Project
@@ -80,10 +86,6 @@ You can try out MedScan instantly via Hugging Face Spaces:
 👉https://huggingface.co/spaces/Anshul-jain07/MedScan
 
 
-📞 Contact
-For queries, collaborations, or suggestions:
 
-📧 Email: anshuljain071103@gmail.com
-🧑‍💻 GitHub: https://github.com/anshuljain0703
 
 
