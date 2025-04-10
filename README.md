@@ -86,17 +86,3 @@ For queries, suggestions, or collaborations:
 
 ---
 
-## 💡 How to Run Locally
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/MedScan.git
-
-# Navigate to the project directory
-cd MedScan
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-streamlit run app.py
