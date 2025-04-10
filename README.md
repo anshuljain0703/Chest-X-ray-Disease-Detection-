@@ -1,80 +1,94 @@
-🩺 MedScan: Chest X-ray Disease Detection and Report Generation
-🏆 Top 10 Finalist – Innov8-2024
+# 🩺 MedScan: Chest X-ray Disease Detection and Report Generation
 
-MedScan is an AI-powered diagnostic tool developed by our team – Siddhant, Mrigank, Abhay, and Anshul. The project was selected among the top 10 teams for its innovative contribution to the future of medical diagnostics and patient support systems.
+🏆 **Top 10 Finalist – Innov8-2024**
 
-🌟 About the Project
-MedScan is a smart healthcare web application that enables users to upload chest X-ray images and receive accurate disease predictions along with downloadable medical reports. The system integrates deep learning and generative AI (Google Gemini) to support healthcare professionals and enhance early detection for patients.
+**MedScan** is an AI-powered diagnostic tool developed by our team – **Siddhant, Mrigank, Abhay, and Anshul**.  
+The project was selected among the **top 10 teams** for its innovative contribution to the future of medical diagnostics and patient support systems.
 
-🔧 Features & Functionalities
-🧠 AI-Based Disease Prediction
-Detects diseases from chest X-rays with high confidence.
+---
 
-Supported classifications:
+## 🌟 About the Project
 
-Bacterial Pneumonia
+**MedScan** is a smart healthcare web application that enables users to upload chest X-ray images and receive accurate disease predictions along with downloadable medical reports.  
+It integrates deep learning and **Google Gemini-based Generative AI** to support healthcare professionals and enhance early detection for patients.
 
-Viral Pneumonia
+---
 
-Corona Virus Disease (COVID-19)
+## 🔧 Features & Functionalities
 
-Tuberculosis
+### 🧠 AI-Based Disease Prediction
+Detects diseases from chest X-rays with high confidence.  
+**Supported classifications:**
+- **Bacterial Pneumonia**
+- **Viral Pneumonia**
+- **COVID-19 (Corona Virus Disease)**
+- **Tuberculosis**
+- **Normal (Healthy)**
 
-Normal (Healthy)
+---
 
-📋 Automated Report Generation
-Generates detailed and patient-friendly reports using Google Gemini API.
+### 📋 Automated Report Generation
+Generates detailed, patient-friendly reports using the **Google Gemini API**.  
+Each report includes:
+- Disease Summary  
+- Confidence Level  
+- Affected Area  
+- Recommendations & Advice
 
-Report includes:
+---
 
-Disease summary
+### 📁 Report Download
+Download the diagnosis in `.txt` format  
+for personal records or medical consultation.
 
-Confidence level
+---
 
-Affected area
+### 💻 Streamlit-Powered Interface
+- Intuitive UI for uploading X-ray images  
+- Real-time prediction and instant report display
 
-Recommendations and advice
+---
 
-📁 Report Download
-Download the diagnosis in .txt format for personal records or medical consultation.
+## 🚀 Future Enhancements
 
-💻 Streamlit-Powered Interface
-Intuitive UI for uploading X-ray images.
+- 🔬 **More Disease Categories**: Add more thoracic conditions  
+- 🌐 **Telemedicine Integration**: Direct consultations with professionals  
+- 📱 **Mobile App Version**: On-the-go diagnosis and tracking  
+- 🌍 **Multi-language Support**: Break accessibility barriers  
+- 🧾 **Medical History Storage**: Secure user login for longitudinal recordkeeping  
 
-Real-time prediction and report display.
+---
 
-🚀 Future Enhancements
-🔬 More Disease Categories: Expand classification to include additional thoracic diseases.
+## 🛠️ Tech Stack
 
-🌐 Telemedicine Integration: Direct consultation with professionals.
+| Component         | Technology                     |
+|------------------|--------------------------------|
+| **Frontend/UI**  | Streamlit (Python)             |
+| **Model**        | VGG16 Deep Learning (Keras)    |
+| **Report Gen.**  | Google Gemini API              |
+| **Backend**      | Python                         |
+| **Environment**  | Jupyter Notebook, Streamlit, VirtualEnv |
 
-📱 Mobile App Version: On-the-go diagnosis support.
-
-🌍 Multi-language Support: Breaking accessibility barriers.
-
-🧾 Medical History Storage: Maintain longitudinal records with secure login.
-
-🛠️ Tech Stack
-Frontend/UI: Streamlit (Python-based)
-
-Model: VGG16 Deep Learning (Keras)
-
-Report Generator: Google Gemini API
-
-Backend: Python
-
-Environment: Jupyter Notebook, Streamlit, VirtualEnv
+---
 
 ## 🌐 Live Deployment
 
-You can try out MedScan instantly via Hugging Face Spaces:  
-👉 [MedScan on Hugging Face](https://huggingface.co/spaces/Anshul-jain07/MedScan)
+🚀 **Try MedScan now on Hugging Face Spaces**  
+👉 [Click Here to Launch App](https://huggingface.co/spaces/Anshul-jain07/MedScan)
 
-##📞 Contact
-For queries, collaborations, or suggestions:
-📧 Email: anshuljain071103@gmail.com
-🧑‍💻 GitHub: Anshul-jain07
+---
 
+## 📞 Contact
+
+For queries, suggestions, or collaborations:  
+📧 **Email**: [anshuljain071103@gmail.com](mailto:anshuljain071103@gmail.com)  
+🧑‍💻 **GitHub**: [Anshul-jain07](https://github.com/anshuljain0703)
+
+---
+
+## 💡 How to Run Locally
+
+```bash
 # Clone the repository
 git clone https://github.com/your-username/MedScan.git
 
@@ -86,4 +100,3 @@ pip install -r requirements.txt
 
 # Run the application
 streamlit run app.py
-
